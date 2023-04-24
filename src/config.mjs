@@ -1,12 +1,12 @@
 export const SITE = {
-  name: "Qwind",
+  name: "Coke Reward11",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Rewards11 — Royality Reimagined",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "Take your customers on a journey to next level of Web3.",
 
-  origin: "https://qwind.pages.dev",
+  origin: "https://coke.rewards11.com",
   basePathname: "/",
   trailingSlash: true,
 };
