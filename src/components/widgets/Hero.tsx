@@ -26,7 +26,7 @@ export default component$(() => {
               <div class="max-w-3xl mx-auto">
                 <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
                   <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                    Rewards11
+                    ₹ewards11
                   </span>{' '}
                   is a production ready template to start your new website using{' '}
                   <em>Qwik</em> + <em>Tailwind CSS</em>. It has been designed
@@ -44,7 +44,7 @@ export default component$(() => {
                       href="https://github.com/onwidget/qwind"
                       target="_blank"
                       rel="noopener">
-                      Get Rewards
+                      Get ₹ewards
                     </a>
                   </div>
                   <div class="flex w-full sm:w-auto">

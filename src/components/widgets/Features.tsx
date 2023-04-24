@@ -53,7 +53,7 @@ export default component$(() => {
             Features
           </p>
           <h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
-            What you get with <span class="whitespace-nowrap">Rewards11</span>
+            What you get with <span class="whitespace-nowrap">₹ewards11</span>
           </h2>
           <p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem

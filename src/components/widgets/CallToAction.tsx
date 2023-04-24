@@ -25,7 +25,7 @@ export default component$(() => {
                 href="https://github.com/onwidget/qwind"
                 target="_blank"
                 rel="noopener">
-                Get Rewards
+                Get ₹ewards
               </a>
             </div>
           </div>

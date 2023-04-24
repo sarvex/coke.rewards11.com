@@ -13,6 +13,6 @@ export default component$(() => (
       alt="Logo"
       loading="lazy"
     />
-    Rewards11
+    ₹ewards11
   </span>
 ));

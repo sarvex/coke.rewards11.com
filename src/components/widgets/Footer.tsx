@@ -27,7 +27,7 @@ export default component$(() => {
         { title: 'Partners', href: '#' },
         { title: 'Atom', href: '#' },
         { title: 'Electron', href: '#' },
-        { title: 'Rewards11', href: '#' },
+        { title: '₹ewards11', href: '#' },
       ],
     },
     {
@@ -72,7 +72,7 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-2">
               <Link class="inline-block font-bold text-xl" href={'/'}>
-                Rewards11
+                ₹ewards11
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">

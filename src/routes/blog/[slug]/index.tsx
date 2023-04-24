@@ -90,7 +90,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const post = resolveValue(useGetPostBySlug);
 
   return {
-    title: `${post.title} — Rewards11`,
+    title: `${post.title} — ₹ewards11`,
     meta: [
       {
         name: 'description',
