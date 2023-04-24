@@ -127,10 +127,10 @@ Basic configuration file: `./src/config.mjs`
 
 ```javascript
 export const SITE = {
-  name: "Example",
+  name: 'Example',
 
-  origin: "https://example.com",
-  basePathname: "/", // Change this if you need to deploy to Github Pages, for example
+  origin: 'https://example.com',
+  basePathname: '/', // Change this if you need to deploy to Github Pages, for example
   trailingSlash: true, // Generate permalinks with or without "/" at the end
 };
 ```
