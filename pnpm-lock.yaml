@@ -23,8 +23,8 @@ devDependencies:
     specifier: 12.2.3
     version: 12.2.3
   '@types/node':
-    specifier: 18.16.6
-    version: 18.16.6
+    specifier: 18.16.9
+    version: 18.16.9
   '@typescript-eslint/eslint-plugin':
     specifier: 5.59.5
     version: 5.59.5(@typescript-eslint/parser@5.59.5)(eslint@8.40.0)(typescript@5.0.4)
@@ -47,8 +47,8 @@ devDependencies:
     specifier: 4.0.3
     version: 4.0.3
   imagetools-core:
-    specifier: 4.0.0
-    version: 4.0.0
+    specifier: 4.0.2
+    version: 4.0.2
   markdown-it:
     specifier: 13.0.1
     version: 13.0.1
@@ -72,10 +72,10 @@ devDependencies:
     version: 5.0.4
   vite:
     specifier: 4.3.5
-    version: 4.3.5(@types/node@18.16.6)
+    version: 4.3.5(@types/node@18.16.9)
   vite-imagetools:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 5.0.3
+    version: 5.0.3
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.0.4)(vite@4.3.5)
@@ -736,7 +736,7 @@ packages:
   /@types/cheerio@0.22.31:
     resolution: {integrity: sha512-Kt7Cdjjdi2XWSfrZ53v4Of0wG3ZcmaegFXjMmz9tfNrZSkzzo36G0AL1YqSdcIA78Etjt6E609pt5h1xnQkPUw==}
     dependencies:
-      '@types/node': 18.16.6
+      '@types/node': 18.16.9
     dev: true
 
   /@types/css-tree@2.3.1:
@@ -815,8 +815,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@18.16.6:
-    resolution: {integrity: sha512-N7KINmeB8IN3vRR8dhgHEp+YpWvGFcpDoh5XZ8jB5a00AdFKCKEyyGTOPTddUf4JqU1ZKTVxkOxakDvchNVI2Q==}
+  /@types/node@18.16.9:
+    resolution: {integrity: sha512-IeB32oIV4oGArLrd7znD2rkHQ6EDCM+2Sr76dJnrHwv9OHBTTM6nuDLK9bmikXzPa0ZlWMWtRGo/Uw4mrzQedA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -830,13 +830,13 @@ packages:
   /@types/sharp@0.31.1:
     resolution: {integrity: sha512-5nWwamN9ZFHXaYEincMSuza8nNfOof8nmO+mcI+Agx1uMUk4/pQnNIcix+9rLPXzKrm1pS34+6WRDbDV0Jn7ag==}
     dependencies:
-      '@types/node': 18.16.6
+      '@types/node': 18.16.9
     dev: true
 
   /@types/svgo@2.6.4:
     resolution: {integrity: sha512-l4cmyPEckf8moNYHdJ+4wkHvFxjyW6ulm9l4YGaOxeyBWPhBOT0gvni1InpFPdzx1dKf/2s62qGITwxNWnPQng==}
     dependencies:
-      '@types/node': 18.16.6
+      '@types/node': 18.16.9
     dev: true
 
   /@types/unist@2.0.6:
@@ -847,7 +847,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.16.6
+      '@types/node': 18.16.9
     dev: true
     optional: true
 
@@ -2970,8 +2970,8 @@ packages:
     engines: {node: '>=0.4'}
     dev: true
 
-  /imagetools-core@4.0.0:
-    resolution: {integrity: sha512-roN8/ybCvNrx2GJG9+WFxqvjNVFYTUrWJ5gzL78iC6/jLBuJTkie4eBrYtoo5ohthak+W3N8+/ebDqKhEpAEPQ==}
+  /imagetools-core@4.0.2:
+    resolution: {integrity: sha512-VG5x5MA2W5aQEBMFmk2rgRt+apkR6MSqxLgkw2QDfhOXsS+2R2dCMTjdlcEWUrn8M291bbsW4A15yF5YODc5Dw==}
     engines: {node: '>=12.0.0'}
     dependencies:
       sharp: 0.32.1
@@ -6084,12 +6084,12 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite-imagetools@5.0.0:
-    resolution: {integrity: sha512-lQupylFhJx4fdDSJLzoIqb/kUM8zC2rOrvqmWAy4Jq82znzKGKVlx4riDElkPWsnNx8EvZordYBKpd9Bkzia/w==}
+  /vite-imagetools@5.0.3:
+    resolution: {integrity: sha512-K4578Kq7d608i4U/tCPfHVn9iOIUd+VyjtxuFtp3wSXOJZbsAZNc7V3G53s8LHiDY+ROKeoWyfXtq1VwTv9UFQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@rollup/pluginutils': 5.0.2
-      imagetools-core: 4.0.0
+      imagetools-core: 4.0.2
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -6105,13 +6105,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.5(@types/node@18.16.6)
+      vite: 4.3.5(@types/node@18.16.9)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.3.5(@types/node@18.16.6):
+  /vite@4.3.5(@types/node@18.16.9):
     resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6136,7 +6136,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.6
+      '@types/node': 18.16.9
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.0
