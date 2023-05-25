@@ -11,8 +11,8 @@ devDependencies:
     specifier: 0.11.7
     version: 0.11.7
   '@fontsource/inter':
-    specifier: 4.5.15
-    version: 4.5.15
+    specifier: 5.0.1
+    version: 5.0.1
   '@tailwindcss/typography':
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.3.2)
@@ -415,8 +415,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/inter@4.5.15:
-    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
+  /@fontsource/inter@5.0.1:
+    resolution: {integrity: sha512-jezFhHp0HcVy2t6M6r89EcxkT30vx0ofGauveQWQ81j70N/wNDYs4zI+sedeend6zF9GXIEqpOTO2D1k7VQX4w==}
     dev: true
 
   /@gustavnikolaj/async-main-wrap@3.0.1:
