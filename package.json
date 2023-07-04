@@ -22,10 +22,10 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.2.3",
-    "@builder.io/qwik-city": "1.2.3",
+    "@builder.io/qwik": "1.2.4",
+    "@builder.io/qwik-city": "1.2.4",
     "@divriots/jampack": "0.13.0",
-    "@fontsource/inter": "5.0.3",
+    "@fontsource/inter": "5.0.4",
     "@tailwindcss/typography": "0.5.9",
     "@types/eslint": "8.40.2",
     "@types/markdown-it": "12.2.3",
@@ -35,7 +35,7 @@
     "@vercel/analytics": "1.0.1",
     "autoprefixer": "10.4.14",
     "eslint": "8.44.0",
-    "eslint-plugin-qwik": "1.2.3",
+    "eslint-plugin-qwik": "1.2.4",
     "gray-matter": "4.0.3",
     "imagetools-core": "4.0.3",
     "markdown-it": "13.0.1",
