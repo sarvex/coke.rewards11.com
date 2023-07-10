@@ -78,8 +78,8 @@ devDependencies:
     specifier: 4.3.9
     version: 4.3.9(@types/node@20.3.3)
   vite-imagetools:
-    specifier: 5.0.4
-    version: 5.0.4
+    specifier: 5.0.5
+    version: 5.0.5
   vite-tsconfig-paths:
     specifier: 4.2.0
     version: 4.2.0(typescript@5.1.6)(vite@4.3.9)
@@ -133,7 +133,7 @@ packages:
       source-map: 0.7.4
       svgo: 3.0.2
       vfile: 5.3.7
-      vite-imagetools: 5.0.4
+      vite-imagetools: 5.0.5
       zod: 3.21.4
     transitivePeerDependencies:
       - rollup
@@ -6065,8 +6065,8 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite-imagetools@5.0.4:
-    resolution: {integrity: sha512-EIRstqWlmoQipsucFCioqCYpfp+rG5v8gpKDFvFJBxEKEAEBPnxW+swmE5dfoRQkwMKkYwmBWeXYsnMaDohUtg==}
+  /vite-imagetools@5.0.5:
+    resolution: {integrity: sha512-q+BRot2b7AxUHgkQzU+5ku+NERVZcXmLdAnQWSnIw31bRoPIBSDxmDRTDldX8gqyjQNkIBjObF+xqPCeNp7CzQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@rollup/pluginutils': 5.0.2
