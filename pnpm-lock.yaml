@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@builder.io/qwik':
     specifier: 1.2.13
-    version: 1.2.13(undici@5.23.0)
+    version: 1.2.13(undici@5.25.4)
   '@builder.io/qwik-city':
     specifier: 1.2.13
     version: 1.2.13
@@ -36,8 +36,8 @@ devDependencies:
     specifier: 6.7.4
     version: 6.7.4(eslint@8.50.0)(typescript@5.2.2)
   '@vercel/analytics':
-    specifier: 1.0.2
-    version: 1.0.2
+    specifier: 1.1.0
+    version: 1.1.0
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -140,7 +140,7 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.2.13(undici@5.23.0):
+  /@builder.io/qwik@1.2.13(undici@5.25.4):
     resolution: {integrity: sha512-JVBBfkoFNGDd6BZzuk8k2rS+Td9SLngZWk0j6lJCQNPj548vA4DdERlUM+iHe3BYq2q7A3oMo63vUF74h42gDw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -148,7 +148,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.23.0
+      undici: 5.25.4
     dev: true
 
   /@divriots/cheerio@1.0.0-rc.12:
@@ -1208,8 +1208,10 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vercel/analytics@1.0.2:
-    resolution: {integrity: sha512-BZFxVrv24VbNNl5xMxqUojQIegEeXMI6rX3rg1uVLYUEXsuKNBSAEQf4BWEcjQDp/8aYJOj6m8V4PUA3x/cxgg==}
+  /@vercel/analytics@1.1.0:
+    resolution: {integrity: sha512-k5ePYZPxitxxD1eJenPUUuH3qK+EtaA9OVD3oO0BRbyT/LarmZF0qdkptRSidip1arQxsTEIWvHbTuj1oksl+Q==}
+    dependencies:
+      server-only: 0.0.1
     dev: true
 
   /abab@2.0.6:
@@ -1584,13 +1586,6 @@ packages:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-    dev: true
-
-  /busboy@1.6.0:
-    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
-    engines: {node: '>=10.16.0'}
-    dependencies:
-      streamsearch: 1.1.0
     dev: true
 
   /call-bind@1.0.2:
@@ -5589,6 +5584,10 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
+  /server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
+    dev: true
+
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
     dev: true
@@ -5762,11 +5761,6 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       bl: 5.1.0
-    dev: true
-
-  /streamsearch@1.1.0:
-    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
-    engines: {node: '>=10.0.0'}
     dev: true
 
   /streamx@2.15.1:
@@ -6326,13 +6320,6 @@ packages:
 
   /underscore@1.13.6:
     resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
-    dev: true
-
-  /undici@5.23.0:
-    resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
-    engines: {node: '>=14.0'}
-    dependencies:
-      busboy: 1.6.0
     dev: true
 
   /undici@5.25.4:
