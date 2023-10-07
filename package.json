@@ -34,7 +34,7 @@
     "@typescript-eslint/parser": "6.7.4",
     "@vercel/analytics": "1.0.2",
     "autoprefixer": "10.4.16",
-    "eslint": "8.50.0",
+    "eslint": "8.51.0",
     "eslint-plugin-qwik": "1.2.13",
     "gray-matter": "4.0.3",
     "imagetools-core": "4.0.6",
