@@ -46,7 +46,7 @@
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
     "vite": "4.4.11",
-    "vite-imagetools": "5.0.9",
+    "vite-imagetools": "5.1.2",
     "vite-tsconfig-paths": "4.2.1"
   },
   "engines": {
