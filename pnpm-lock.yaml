@@ -51,8 +51,8 @@ devDependencies:
     specifier: 4.0.3
     version: 4.0.3
   imagetools-core:
-    specifier: 4.0.6
-    version: 4.0.6
+    specifier: 4.1.0
+    version: 4.1.0
   markdown-it:
     specifier: 13.0.2
     version: 13.0.2
@@ -3275,13 +3275,6 @@ packages:
     engines: {node: '>=0.4'}
     dev: true
 
-  /imagetools-core@4.0.6:
-    resolution: {integrity: sha512-yaPVrHS/zImtuk4O3hyAQkSZP70zlRV+iPoq/XE7+7AKhZgUCaiALfXWltLEbG6prAgVi4pPUVNw/obn9LVKkw==}
-    engines: {node: '>=12.0.0'}
-    dependencies:
-      sharp: 0.32.5
-    dev: true
-
   /imagetools-core@4.1.0:
     resolution: {integrity: sha512-GDMgj3zhQ3g6Ga3yWBSmdJC7mM8UePgHiZsVQZ8sUWgAk2UzRyGlFV5qdv0topv63vE86KaK6MmAbjVUVibOzA==}
     engines: {node: '>=12.0.0'}
@@ -5599,21 +5592,6 @@ packages:
 
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
-    dev: true
-
-  /sharp@0.32.5:
-    resolution: {integrity: sha512-0dap3iysgDkNaPOaOL4X/0akdu0ma62GcdC2NBQ+93eqpePdDdr2/LM0sFdDSMmN7yS+odyZtPsb7tx/cYBKnQ==}
-    engines: {node: '>=14.15.0'}
-    requiresBuild: true
-    dependencies:
-      color: 4.2.3
-      detect-libc: 2.0.2
-      node-addon-api: 6.1.0
-      prebuild-install: 7.1.1
-      semver: 7.5.4
-      simple-get: 4.0.1
-      tar-fs: 3.0.4
-      tunnel-agent: 0.6.0
     dev: true
 
   /sharp@0.32.6:
