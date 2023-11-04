@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@builder.io/qwik':
-    specifier: 1.2.16
-    version: 1.2.16(@types/node@20.8.10)(undici@5.27.0)
+    specifier: 1.2.17
+    version: 1.2.17(@types/node@20.8.10)(undici@5.27.0)
   '@builder.io/qwik-city':
-    specifier: 1.2.16
-    version: 1.2.16(@types/node@20.8.10)
+    specifier: 1.2.17
+    version: 1.2.17(@types/node@20.8.10)
   '@divriots/jampack':
     specifier: 0.21.1
     version: 0.21.1(react-dom@16.14.0)(react@16.14.0)
@@ -45,14 +45,14 @@ devDependencies:
     specifier: 8.53.0
     version: 8.53.0
   eslint-plugin-qwik:
-    specifier: 1.2.16
-    version: 1.2.16(eslint@8.53.0)
+    specifier: 1.2.17
+    version: 1.2.17(eslint@8.53.0)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
   imagetools-core:
-    specifier: 5.1.0
-    version: 5.1.0
+    specifier: 5.1.1
+    version: 5.1.1
   markdown-it:
     specifier: 13.0.2
     version: 13.0.2
@@ -78,8 +78,8 @@ devDependencies:
     specifier: 4.5.0
     version: 4.5.0(@types/node@20.8.10)
   vite-imagetools:
-    specifier: 6.2.1
-    version: 6.2.1
+    specifier: 6.2.3
+    version: 6.2.3
   vite-tsconfig-paths:
     specifier: 4.2.1
     version: 4.2.1(typescript@5.2.2)(vite@4.5.0)
@@ -125,8 +125,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@builder.io/qwik-city@1.2.16(@types/node@20.8.10):
-    resolution: {integrity: sha512-oyVRrKsWqoXY09WPIqkVGjT6pqRSjn0PmxiS29CCym8MLxQGcOEIog5WCaYlMjMiu8EDlRbRX9KsGDk31A5u7w==}
+  /@builder.io/qwik-city@1.2.17(@types/node@20.8.10):
+    resolution: {integrity: sha512-aCAjNQZr/DMgdcjqkyPVh1Uqly9urJx3mRu2iteLLy62VB6QYhaHtOHA6WlcwBT8LQGOOVilHEdDNB6hbrOwvQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -150,8 +150,8 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.16(@types/node@20.8.10)(undici@5.27.0):
-    resolution: {integrity: sha512-ZadMArtIZpdeHeH2Qw5HEbGurCnKJ22i8fvZDlKybPercD8Obf6xk5ox1XcTsliodQWH3O0UJChvXArCrJR0LQ==}
+  /@builder.io/qwik@1.2.17(@types/node@20.8.10)(undici@5.27.0):
+    resolution: {integrity: sha512-66fGmPHIy/brJqtrUapxckw9EVAh6U3pcjRr1WiqGGjq1cvgJdP88jayMw85XvckEjrF4ymNLOYCmjdlQNzU+Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -2548,8 +2548,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-qwik@1.2.16(eslint@8.53.0):
-    resolution: {integrity: sha512-GrgRYjH/ozzrOuK/j10EfmgV6Hv552fHq/0+1ULyImU5DwoiN0jTDaWOKVIl2E8LEkSBsdg8AT+pPs8kOZy1TQ==}
+  /eslint-plugin-qwik@1.2.17(eslint@8.53.0):
+    resolution: {integrity: sha512-Q6gwahd8np5s7/SwWrgvhzAgymqHmiuXdgUvIgnDt0N0fZvdEJQUYQtTOpwMpRj8+E53oKLVk3vogeRki6QbFw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.45.0
@@ -3314,8 +3314,8 @@ packages:
       sharp: 0.32.6
     dev: true
 
-  /imagetools-core@5.1.0:
-    resolution: {integrity: sha512-NT7dh/1OoEwVp4vgMVRsW0vOMJsbaGtIyFJCXjGK9llT+GrCtQ5hJYPXNws7e2o7oYHU5mA9dDV1Cv9ooVL5Xw==}
+  /imagetools-core@5.1.1:
+    resolution: {integrity: sha512-NragdIrgxecFO8nRKy8uAYvDxe0QLEW5ToMEviAoNXpEnDQ6I4vs+npRa+z5fNB5nIku+jr11L+MuSkk7XzsKw==}
     engines: {node: '>=12.0.0'}
     dependencies:
       sharp: 0.32.6
@@ -6617,12 +6617,12 @@ packages:
       - rollup
     dev: true
 
-  /vite-imagetools@6.2.1:
-    resolution: {integrity: sha512-bKjxLcTJWJJ2iMxlQUAGgoslkwmfGBZ4vW3k87YWUIY4bC4QvU52ngLq10sy18fPBEWMXy/FHtPf9yR8KnHUFA==}
+  /vite-imagetools@6.2.3:
+    resolution: {integrity: sha512-VZTJOXDTw/Nfah2ayQCWEvNc0b2Q7uGSUCczjx0N7ULd7VZDFH3PxcqyKIRxFOenKcSTYTna1OMzdGlcRBTk+g==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@rollup/pluginutils': 5.0.5
-      imagetools-core: 5.1.0
+      imagetools-core: 5.1.1
     transitivePeerDependencies:
       - rollup
     dev: true
