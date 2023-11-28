@@ -22,8 +22,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.2.18",
-    "@builder.io/qwik-city": "1.2.18",
+    "@builder.io/qwik": "1.2.19",
+    "@builder.io/qwik-city": "1.2.19",
     "@divriots/jampack": "0.22.1",
     "@fontsource/inter": "5.0.15",
     "@tailwindcss/typography": "0.5.10",
@@ -35,9 +35,9 @@
     "@vercel/analytics": "1.1.1",
     "autoprefixer": "10.4.16",
     "eslint": "8.54.0",
-    "eslint-plugin-qwik": "1.2.18",
+    "eslint-plugin-qwik": "1.2.19",
     "gray-matter": "4.0.3",
-    "imagetools-core": "6.0.0",
+    "imagetools-core": "6.0.1",
     "markdown-it": "13.0.2",
     "node-fetch": "3.3.2",
     "postcss": "8.4.31",
@@ -46,7 +46,7 @@
     "tailwindcss": "3.3.5",
     "typescript": "5.3.2",
     "vite": "5.0.2",
-    "vite-imagetools": "6.2.4",
+    "vite-imagetools": "6.2.5",
     "vite-tsconfig-paths": "4.2.1"
   },
   "engines": {
