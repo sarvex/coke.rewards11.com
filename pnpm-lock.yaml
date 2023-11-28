@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@builder.io/qwik':
-    specifier: 1.2.18
-    version: 1.2.18(@types/node@20.10.0)(undici@5.27.0)
+    specifier: 1.2.19
+    version: 1.2.19(@types/node@20.10.0)(undici@5.27.0)
   '@builder.io/qwik-city':
     specifier: 1.2.18
     version: 1.2.18(@types/node@20.10.0)
@@ -150,8 +150,8 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.18(@types/node@20.10.0)(undici@5.27.0):
-    resolution: {integrity: sha512-YfkpRI8IoJ6OkIlMoJ4jdjbotZSmBfMtf9ibxbf9vZLgKVLkSbSb4hgpA+NMWwQb/ojgn/6YJ49MwaZP81sm4Q==}
+  /@builder.io/qwik@1.2.19(@types/node@20.10.0)(undici@5.27.0):
+    resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
