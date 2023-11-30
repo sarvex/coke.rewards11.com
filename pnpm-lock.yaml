@@ -7,10 +7,10 @@ settings:
 devDependencies:
   '@builder.io/qwik':
     specifier: 1.2.19
-    version: 1.2.19(@types/node@20.10.0)(undici@5.27.0)
+    version: 1.2.19(@types/node@20.10.1)(undici@5.27.0)
   '@builder.io/qwik-city':
     specifier: 1.2.19
-    version: 1.2.19(@types/node@20.10.0)
+    version: 1.2.19(@types/node@20.10.1)
   '@divriots/jampack':
     specifier: 0.22.1
     version: 0.22.1(react-dom@16.14.0)(react@16.14.0)
@@ -21,14 +21,14 @@ devDependencies:
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.3.5)
   '@types/eslint':
-    specifier: 8.44.7
-    version: 8.44.7
+    specifier: 8.44.8
+    version: 8.44.8
   '@types/markdown-it':
     specifier: 13.0.7
     version: 13.0.7
   '@types/node':
-    specifier: 20.10.0
-    version: 20.10.0
+    specifier: 20.10.1
+    version: 20.10.1
   '@typescript-eslint/eslint-plugin':
     specifier: 6.13.1
     version: 6.13.1(@typescript-eslint/parser@6.13.1)(eslint@8.54.0)(typescript@5.3.2)
@@ -75,14 +75,14 @@ devDependencies:
     specifier: 5.3.2
     version: 5.3.2
   vite:
-    specifier: 5.0.3
-    version: 5.0.3(@types/node@20.10.0)
+    specifier: 5.0.4
+    version: 5.0.4(@types/node@20.10.1)
   vite-imagetools:
     specifier: 6.2.5
     version: 6.2.5
   vite-tsconfig-paths:
     specifier: 4.2.1
-    version: 4.2.1(typescript@5.3.2)(vite@5.0.3)
+    version: 4.2.1(typescript@5.3.2)(vite@5.0.4)
 
 packages:
 
@@ -125,7 +125,7 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@builder.io/qwik-city@1.2.19(@types/node@20.10.0):
+  /@builder.io/qwik-city@1.2.19(@types/node@20.10.1):
     resolution: {integrity: sha512-RAjS1HRuRgi2YX8Gj54MIpnXtpaJyS8RrOH34ujfOlcSg9V17gcdceS24E8+llcEAYikAU6GP7T9bC5tSIRaPg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
@@ -135,7 +135,7 @@ packages:
       svgo: 3.0.2
       undici: 5.27.0
       vfile: 6.0.1
-      vite: 4.5.0(@types/node@20.10.0)
+      vite: 4.5.0(@types/node@20.10.1)
       vite-imagetools: 5.1.2
       zod: 3.22.4
     transitivePeerDependencies:
@@ -150,7 +150,7 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.19(@types/node@20.10.0)(undici@5.27.0):
+  /@builder.io/qwik@1.2.19(@types/node@20.10.1)(undici@5.27.0):
     resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -159,7 +159,7 @@ packages:
     dependencies:
       csstype: 3.1.2
       undici: 5.27.0
-      vite: 4.5.0(@types/node@20.10.0)
+      vite: 4.5.0(@types/node@20.10.1)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1105,8 +1105,8 @@ packages:
       '@types/ms': 0.7.33
     dev: true
 
-  /@types/eslint@8.44.7:
-    resolution: {integrity: sha512-f5ORu2hcBbKei97U73mf+l9t4zTGl74IqZ0GQk4oVea/VS8tQZYkUveSYojk+frraAVYId0V2WC9O4PTNru2FQ==}
+  /@types/eslint@8.44.8:
+    resolution: {integrity: sha512-4K8GavROwhrYl2QXDXm0Rv9epkA8GBFu0EI+XrrnnuCl7u8CWBRusX7fXJfanhZTDWSAL24gDI/UqXyUM0Injw==}
     dependencies:
       '@types/estree': 1.0.4
       '@types/json-schema': 7.0.14
@@ -1161,8 +1161,8 @@ packages:
     resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
     dev: true
 
-  /@types/node@20.10.0:
-    resolution: {integrity: sha512-D0WfRmU9TQ8I9PFx9Yc+EBHw+vSpIub4IDvQivcp26PtPrdMGAq5SDcpXEo/epqa/DXotVpekHiLNTg3iaKXBQ==}
+  /@types/node@20.10.1:
+    resolution: {integrity: sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1187,7 +1187,7 @@ packages:
     resolution: {integrity: sha512-Km7XAtUIduROw7QPgvcft0lIupeG8a8rdKL8RiSyKvlE7dYY31fEn41HVuQsRFDuROA8tA4K2UVL+WdfFmErBA==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.10.0
+      '@types/node': 20.10.1
     dev: true
     optional: true
 
@@ -6748,7 +6748,7 @@ packages:
       - rollup
     dev: true
 
-  /vite-tsconfig-paths@4.2.1(typescript@5.3.2)(vite@5.0.3):
+  /vite-tsconfig-paths@4.2.1(typescript@5.3.2)(vite@5.0.4):
     resolution: {integrity: sha512-GNUI6ZgPqT3oervkvzU+qtys83+75N/OuDaQl7HmOqFTb0pjZsuARrRipsyJhJ3enqV8beI1xhGbToR4o78nSQ==}
     peerDependencies:
       vite: '*'
@@ -6759,13 +6759,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.2(typescript@5.3.2)
-      vite: 5.0.3(@types/node@20.10.0)
+      vite: 5.0.4(@types/node@20.10.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.5.0(@types/node@20.10.0):
+  /vite@4.5.0(@types/node@20.10.1):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6793,7 +6793,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.10.0
+      '@types/node': 20.10.1
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
@@ -6801,8 +6801,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.0.3(@types/node@20.10.0):
-    resolution: {integrity: sha512-WgEq8WEKpZ8c0DL4M1+E+kBZEJyjBmGVrul6z8Ljfhv+PPbNF4aGq014DwNYxGz2FGq6NKL0N8usdiESWd2l2w==}
+  /vite@5.0.4(@types/node@20.10.1):
+    resolution: {integrity: sha512-RzAr8LSvM8lmhB4tQ5OPcBhpjOZRZjuxv9zO5UcxeoY2bd3kP3Ticd40Qma9/BqZ8JS96Ll/jeBX9u+LJZrhVg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -6829,7 +6829,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.10.0
+      '@types/node': 20.10.1
       esbuild: 0.19.5
       postcss: 8.4.31
       rollup: 4.5.0
