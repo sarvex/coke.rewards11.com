@@ -78,8 +78,8 @@ devDependencies:
     specifier: 5.0.10
     version: 5.0.10(@types/node@20.10.5)
   vite-imagetools:
-    specifier: 6.2.7
-    version: 6.2.7
+    specifier: 6.2.8
+    version: 6.2.8
   vite-tsconfig-paths:
     specifier: 4.2.2
     version: 4.2.2(typescript@5.3.3)(vite@5.0.10)
@@ -136,7 +136,7 @@ packages:
       undici: 5.27.0
       vfile: 6.0.1
       vite: 5.0.10(@types/node@20.10.5)
-      vite-imagetools: 6.2.7
+      vite-imagetools: 6.2.8
       zod: 3.22.4
     transitivePeerDependencies:
       - '@types/node'
@@ -6852,8 +6852,8 @@ packages:
       vfile-message: 4.0.2
     dev: true
 
-  /vite-imagetools@6.2.7:
-    resolution: {integrity: sha512-7rE6xM93kf7OIVUSrQBIP363fSToUHpIwnuxdqHuVU6SdysksQF06g8SBezIsFegZY+OJgW1e3dprcBalEtRTg==}
+  /vite-imagetools@6.2.8:
+    resolution: {integrity: sha512-52r/BvprawSlUXayDn5ncX3mqaoxBbOaYG4eakzwREoCXEOTvp+A4HDXrDoeS6PM9T/3ZH7CqBhgmIYm6B/mpQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@rollup/pluginutils': 5.0.5
