@@ -45,8 +45,8 @@ devDependencies:
     specifier: 8.56.0
     version: 8.56.0
   eslint-plugin-qwik:
-    specifier: 1.3.5
-    version: 1.3.5(eslint@8.56.0)
+    specifier: 1.4.2
+    version: 1.4.2(eslint@8.56.0)
   gray-matter:
     specifier: 4.0.3
     version: 4.0.3
@@ -2741,8 +2741,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-plugin-qwik@1.3.5(eslint@8.56.0):
-    resolution: {integrity: sha512-0OG/YDrFImIXi8+EP6tEBS7LMQvrVvv8WGaBk9poLpMVb9tlhWmEYSkNjKWs14eaSJwCnmt/n5ORsMDOJGoKpA==}
+  /eslint-plugin-qwik@1.4.2(eslint@8.56.0):
+    resolution: {integrity: sha512-A5uVRaNDRgbi0+eE9ZF+V9uiGIklBFW+lXVlF9wzweNPNbWeLPNRP2d1Es0ZjEqC69boZq9FRfcFvwysEO0poQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.56.0
