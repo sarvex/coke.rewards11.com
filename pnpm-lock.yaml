@@ -78,8 +78,8 @@ devDependencies:
     specifier: 5.2.10
     version: 5.2.10(@types/node@20.12.7)
   vite-imagetools:
-    specifier: 6.2.9
-    version: 6.2.9
+    specifier: 7.0.1
+    version: 7.0.1
   vite-tsconfig-paths:
     specifier: 4.3.2
     version: 4.3.2(typescript@5.4.5)(vite@5.2.10)
@@ -6905,6 +6905,16 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.5
       imagetools-core: 6.0.4
+    transitivePeerDependencies:
+      - rollup
+    dev: true
+
+  /vite-imagetools@7.0.1:
+    resolution: {integrity: sha512-23jnLhkTH0HR9Vd9LxMYnajOLeo0RJNEAHhtlsQP6kfPuOBoTzt54rWbEWB9jmhEXAOflLQpM+FrmilVPAoyGA==}
+    engines: {node: '>=18.0.0'}
+    dependencies:
+      '@rollup/pluginutils': 5.0.5
+      imagetools-core: 7.0.0
     transitivePeerDependencies:
       - rollup
     dev: true
