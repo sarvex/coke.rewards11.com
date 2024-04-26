@@ -66,8 +66,8 @@ devDependencies:
     specifier: 3.2.5
     version: 3.2.5
   subfont:
-    specifier: 7.1.1
-    version: 7.1.1(typescript@5.4.5)
+    specifier: 7.2.0
+    version: 7.2.0(typescript@5.4.5)
   tailwindcss:
     specifier: 3.4.3
     version: 3.4.3
@@ -1600,6 +1600,7 @@ packages:
 
   /abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
+    deprecated: Use your platform's native atob() and btoa() methods instead
     dev: true
 
   /acorn-globals@6.0.0:
@@ -1607,14 +1608,6 @@ packages:
     dependencies:
       acorn: 7.4.1
       acorn-walk: 7.2.0
-    dev: true
-
-  /acorn-jsx@5.3.2(acorn@8.11.2):
-    resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
-    peerDependencies:
-      acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-    dependencies:
-      acorn: 8.11.2
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.11.3):
@@ -1778,8 +1771,8 @@ packages:
   /assetgraph@7.11.1:
     resolution: {integrity: sha512-NPztKsHgofakTOPTG4LWH9HdatOjLTZUCNTtX3TJnfmB3HrhVAC9Ogso/zbhm3NZudwTktB5waOefgpU2cSlEQ==}
     dependencies:
-      acorn: 8.11.2
-      acorn-jsx: 5.3.2(acorn@8.11.2)
+      acorn: 8.11.3
+      acorn-jsx: 5.3.2(acorn@8.11.3)
       bluebird: 3.7.2
       chalk: 2.4.2
       common-path-prefix: 1.0.0
@@ -1947,17 +1940,6 @@ packages:
 
   /browser-process-hrtime@1.0.0:
     resolution: {integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==}
-    dev: true
-
-  /browserslist@4.22.1:
-    resolution: {integrity: sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001612
-      electron-to-chromium: 1.4.749
-      node-releases: 2.0.14
-      update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: true
 
   /browserslist@4.23.0:
@@ -2649,6 +2631,7 @@ packages:
   /domexception@2.0.1:
     resolution: {integrity: sha512-yxJ2mFy/sibVQlu5qHjOkf9J3K6zgmCxgJ94u2EdvDOV09H+32LtRswEcUsmUWN72pVLOEnTSRaIVVzVQgS0dg==}
     engines: {node: '>=8'}
+    deprecated: Use your platform's native DOMException instead
     dependencies:
       webidl-conversions: 5.0.0
     dev: true
@@ -3429,6 +3412,10 @@ packages:
     resolution: {integrity: sha512-48C/LOUweD//LTqaQAS9VMOBNPh7DhyJEmdzh5/1GgjNA8kGZMVZKTzkvarBDtiKKaKG5whx7qXU8OeSNLmWcA==}
     dev: true
 
+  /harfbuzzjs@0.3.5:
+    resolution: {integrity: sha512-SbNxmVAyhlUJTHdaxgK5S6Uqy4mXIu80Vl6KDn8d+ctPAF6W3DY2yehB4BwIC24I/Tk5HGLjaQkyny5gY0r41Q==}
+    dev: true
+
   /has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
     dev: true
@@ -3968,7 +3955,7 @@ packages:
         optional: true
     dependencies:
       abab: 2.0.6
-      acorn: 8.11.2
+      acorn: 8.11.3
       acorn-globals: 6.0.0
       cssom: 0.4.4
       cssstyle: 2.3.0
@@ -4533,8 +4520,8 @@ packages:
   /micromark-extension-mdxjs@3.0.0:
     resolution: {integrity: sha512-A873fJfhnJ2siZyUrJ31l34Uqwy4xIFmvPY1oj+Ean5PHcPBYzEsvqvWGaWcfEIr11O5Dlw3p2y0tZWpKHDejQ==}
     dependencies:
-      acorn: 8.11.2
-      acorn-jsx: 5.3.2(acorn@8.11.2)
+      acorn: 8.11.3
+      acorn-jsx: 5.3.2(acorn@8.11.3)
       micromark-extension-mdx-expression: 3.0.0
       micromark-extension-mdx-jsx: 3.0.0
       micromark-extension-mdx-md: 2.0.0
@@ -6330,15 +6317,15 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /subfont@7.1.1(typescript@5.4.5):
-    resolution: {integrity: sha512-tGW7spaeNQ4R7/qDFvpBDMZQAv2uq247h5Xh1R3zwN6plBLlpar431l/mrZh2QOIkPxIq68hg4yTErgJpNDhzg==}
+  /subfont@7.2.0(typescript@5.4.5):
+    resolution: {integrity: sha512-10d+EyowgYeKrKYg4S/KjUzl/zZ/ojWSMIwDsl/F/7a6V3Lp7Ej9kCcISGQX/qmfEl8mEitTrdK0v5kD5wM3Ng==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
       '@gustavnikolaj/async-main-wrap': 3.0.1
       '@hookun/parse-animation-shorthand': 0.1.5
       assetgraph: 7.11.1
-      browserslist: 4.22.1
+      browserslist: 4.23.0
       css-font-parser: 2.0.0
       css-font-weight-names: 0.2.1
       css-list-helpers: 2.0.0
@@ -6355,7 +6342,7 @@ packages:
       pretty-bytes: 5.6.0
       puppeteer-core: 19.11.1(typescript@5.4.5)
       specificity: 0.4.1
-      subset-font: 2.1.0
+      subset-font: 2.3.0
       urltools: 0.4.2
       yargs: 15.4.1
     transitivePeerDependencies:
@@ -6367,11 +6354,11 @@ packages:
       - utf-8-validate
     dev: true
 
-  /subset-font@2.1.0:
-    resolution: {integrity: sha512-4xV42NsGGBftUj2bR6cYrUkwtTWZRRg5ISUquTBztWfntyZhod24KI0IH4YBFD3U8luLXFv87uo+1U18kAlVzg==}
+  /subset-font@2.3.0:
+    resolution: {integrity: sha512-RcB2cu/14zYxGceTnnptlc8uTuxMkVYdyu3Kj+CA1nye6bI1s1cSSp+ApzpkMzl8iAmEUt+zAE0VHvhVpTO/Ig==}
     dependencies:
       fontverter: 2.0.0
-      harfbuzzjs: 0.3.3
+      harfbuzzjs: 0.3.5
       lodash: 4.17.21
       p-limit: 3.1.0
     dev: true
@@ -6526,7 +6513,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
       commander: 2.20.3
       source-map: 0.6.1
       source-map-support: 0.5.21
@@ -6843,17 +6830,6 @@ packages:
 
   /unpic@3.18.0:
     resolution: {integrity: sha512-JemzuG3nyKpEQ/DArrYM0l+LDSLLPYiUQvDfGXJY35+r0J0C984vPB4Zh8DyMVip102YSnTeZtZ6Q8OQegQDRQ==}
-    dev: true
-
-  /update-browserslist-db@1.0.13(browserslist@4.22.1):
-    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.22.1
-      escalade: 3.1.1
-      picocolors: 1.0.0
     dev: true
 
   /update-browserslist-db@1.0.13(browserslist@4.23.0):
@@ -7179,6 +7155,7 @@ packages:
 
   /workbox-google-analytics@4.3.1:
     resolution: {integrity: sha512-xzCjAoKuOb55CBSwQrbyWBKqp35yg1vw9ohIlU2wTy06ZrYfJ8rKochb1MSGlnoBfXGWss3UPzxR5QL5guIFdg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 4.3.1
       workbox-core: 4.3.1
