@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.5.5
     version: 1.5.5(@types/node@20.14.2)(undici@6.14.1)
   '@builder.io/qwik-city':
-    specifier: 1.5.5
-    version: 1.5.5(@types/node@20.14.2)
+    specifier: 1.5.6
+    version: 1.5.6(@types/node@20.14.2)
   '@divriots/jampack':
     specifier: 0.24.4
     version: 0.24.4(react-dom@16.14.0)(react@16.14.0)
@@ -125,8 +125,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@builder.io/qwik-city@1.5.5(@types/node@20.14.2):
-    resolution: {integrity: sha512-Xi/1WqrB91CpZcAXs43OC87+7h89hJczJp43FXUMrvTHGeUsR/udhpz6SZWI/mHh0PFNx6f0A59tPmtDDzYl0Q==}
+  /@builder.io/qwik-city@1.5.6(@types/node@20.14.2):
+    resolution: {integrity: sha512-s+GOMWgkbwCKmsEZnoKXhZUEzq4IQy/nqmDC/BJ9ybWA4ILPbxAY+OeiJ4l4U87xuqZxcwqDUXe1Fog4HBOjSA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 3.0.1
