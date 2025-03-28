@@ -22,7 +22,7 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.5.5",
+    "@builder.io/qwik": "1.7.3",
     "@builder.io/qwik-city": "1.12.1",
     "@divriots/jampack": "0.33.0",
     "@fontsource/inter": "5.2.5",
