@@ -15,8 +15,8 @@ devDependencies:
     specifier: 0.24.4
     version: 0.24.4(react-dom@16.14.0)(react@16.14.0)
   '@fontsource/inter':
-    specifier: 5.0.20
-    version: 5.0.20
+    specifier: 5.2.5
+    version: 5.2.5
   '@tailwindcss/typography':
     specifier: 0.5.13
     version: 0.5.13(tailwindcss@3.4.7)
@@ -511,8 +511,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@fontsource/inter@5.0.20:
-    resolution: {integrity: sha512-rtw2F7xfM7rJmmnncXnR4ADr5wXsp4GyN1O1jmQJ1PMjAK+bm620/ZkQkeOYOkGoa09OksGinOeMA+Mkt6K9PQ==}
+  /@fontsource/inter@5.2.5:
+    resolution: {integrity: sha512-kbsPKj0S4p44JdYRFiW78Td8Ge2sBVxi/PIBwmih+RpSXUdvS9nbs1HIiuUSPtRMi14CqLEZ/fbk7dj7vni1Sg==}
     dev: true
 
   /@gustavnikolaj/async-main-wrap@3.0.1:
