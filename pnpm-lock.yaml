@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.7.3
     version: 1.7.3(@types/node@22.15.3)
   '@builder.io/qwik-city':
-    specifier: 1.12.1
-    version: 1.12.1(typescript@5.8.2)(vite@5.4.15)
+    specifier: 1.13.0
+    version: 1.13.0(typescript@5.8.2)(vite@5.4.15)
   '@divriots/jampack':
     specifier: 0.33.0
     version: 0.33.0(react-dom@16.14.0)(react@16.14.0)
@@ -120,8 +120,8 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@builder.io/qwik-city@1.12.1(typescript@5.8.2)(vite@5.4.15):
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  /@builder.io/qwik-city@1.13.0(typescript@5.8.2)(vite@5.4.15):
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -5089,7 +5089,7 @@ packages:
     resolution: {integrity: sha512-o/sd0nMof8kYff+TqcDx3VSrgBTcZpSvYcAHIfHhv5VAuNmisCxjhx6YmxS8PFEpb9z5WKWKPdzf0jM23ro3RQ==}
     dependencies:
       '@types/debug': 4.1.10
-      debug: 4.3.4
+      debug: 4.4.0
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.1
