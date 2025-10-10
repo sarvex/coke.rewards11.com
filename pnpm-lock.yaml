@@ -51,8 +51,8 @@ devDependencies:
     specifier: 4.0.3
     version: 4.0.3
   imagetools-core:
-    specifier: 7.1.0
-    version: 7.1.0
+    specifier: 9.0.0
+    version: 9.0.0
   markdown-it:
     specifier: 14.1.0
     version: 14.1.0
@@ -4219,6 +4219,11 @@ packages:
   /imagetools-core@8.0.0:
     resolution: {integrity: sha512-5i4Cx5vrBpVdvT3gvkSGAzzkUCrg/5Jm54UwWbDUSTMp4AjDI4IxiC6dI4+X1PRJYi6eKqWuE+684NJY2iOn3w==}
     engines: {node: '>=18.0.0'}
+    dev: true
+
+  /imagetools-core@9.0.0:
+    resolution: {integrity: sha512-LAU2iVl6MuLbARLrZFEOrgqUFGmHij0FqqOR1/mMndUzJoPz2BU4gCXUhjikgwwmfhBPa/1szwiliUy//ZWafw==}
+    engines: {node: '>=20.0.0'}
     dev: true
 
   /import-fresh@3.3.0:
