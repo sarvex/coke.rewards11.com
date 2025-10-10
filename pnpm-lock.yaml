@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.13.0
     version: 1.13.0(typescript@5.8.3)(vite@5.4.20)
   '@divriots/jampack':
-    specifier: 0.33.0
-    version: 0.33.0(react-dom@16.14.0)(react@16.14.0)
+    specifier: 0.34.0
+    version: 0.34.0(react-dom@16.14.0)(react@16.14.0)
   '@fontsource/inter':
     specifier: 5.2.5
     version: 5.2.5
@@ -178,8 +178,8 @@ packages:
       whatwg-mimetype: 3.0.0
     dev: true
 
-  /@divriots/jampack@0.33.0(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-/zXyK9ttCWP2N430tzVkvMRruOZekicU+76eo3jOSSZPJTt/xS9Jw0ulmjAHP/2LgfN4Ckj9Or7YosTCIZ5syQ==}
+  /@divriots/jampack@0.34.0(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-cD+Li/X+EoqxDfmHaklFq/4RrNARIqeIYt4KDSbZja0w06XWWpYo8q4yLoAOUvIAF7+hKRGKXcQxA+4igOVy/g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -187,7 +187,7 @@ packages:
       '@divriots/cheerio': 1.0.0-rc.12
       '@swc/core': 1.5.0
       add: 2.0.6
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       commander: 12.0.0
       critters: 0.0.22
       deepmerge: 4.3.1
@@ -6602,7 +6602,7 @@ packages:
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.14.1
+      acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
