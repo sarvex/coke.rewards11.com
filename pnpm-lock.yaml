@@ -12,14 +12,14 @@ devDependencies:
     specifier: 1.17.0
     version: 1.17.0(@types/node@22.18.10)(typescript@5.9.3)
   '@divriots/jampack':
-    specifier: 0.34.0
-    version: 0.34.0(react-dom@16.14.0)(react@16.14.0)
+    specifier: 0.34.1
+    version: 0.34.1(react-dom@16.14.0)(react@16.14.0)
   '@fontsource/inter':
     specifier: 5.2.8
     version: 5.2.8
   '@tailwindcss/typography':
-    specifier: 0.5.19
-    version: 0.5.19(tailwindcss@4.1.14)
+    specifier: 0.5.20
+    version: 0.5.20(tailwindcss@4.1.14)
   '@types/eslint':
     specifier: 9.6.1
     version: 9.6.1
@@ -66,8 +66,8 @@ devDependencies:
     specifier: 3.6.2
     version: 3.6.2
   subfont:
-    specifier: 7.2.1
-    version: 7.2.1(typescript@5.9.3)
+    specifier: 7.2.3
+    version: 7.2.3(typescript@5.9.3)
   tailwindcss:
     specifier: 4.1.14
     version: 4.1.14
@@ -78,8 +78,8 @@ devDependencies:
     specifier: 7.1.9
     version: 7.1.9(@types/node@22.18.10)
   vite-imagetools:
-    specifier: 9.0.0
-    version: 9.0.0
+    specifier: 9.0.3
+    version: 9.0.3
   vite-tsconfig-paths:
     specifier: 5.1.4
     version: 5.1.4(typescript@5.9.3)(vite@7.1.9)
@@ -189,8 +189,8 @@ packages:
       whatwg-mimetype: 3.0.0
     dev: true
 
-  /@divriots/jampack@0.34.0(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-cD+Li/X+EoqxDfmHaklFq/4RrNARIqeIYt4KDSbZja0w06XWWpYo8q4yLoAOUvIAF7+hKRGKXcQxA+4igOVy/g==}
+  /@divriots/jampack@0.34.1(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-0nXMTLNeip5C+wag6F5Il0lJu+ZF/eJ8AwSmlnHsl1y78njcolJrcv+vDTTEDCyxtp7Buajmiii86g/KFFh9dg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1669,10 +1669,10 @@ packages:
     resolution: {integrity: sha512-myfUej5naTBWnqOCc/MdVOLVjXUXtIA+NpDrDBKJtLLg2shUjBu3cZmB/85RyitKc55+lUUyl7oRfLOvkr2hsw==}
     dev: true
 
-  /@tailwindcss/typography@0.5.19(tailwindcss@4.1.14):
-    resolution: {integrity: sha512-w31dd8HOx3k9vPtcQh5QHP9GwKcgbMp87j58qi6xgiBnFFtKEAgCWnDw4qUT8aHwkCp8bKvb/KGKWWHedP0AAg==}
+  /@tailwindcss/typography@0.5.20(tailwindcss@4.1.14):
+    resolution: {integrity: sha512-hwbzQuNUfcPvbegQFatVPl/MY/tcM9KLl963hQ5laJKPh81TEZ1+dNG9PirGvcaDBkp+BCshExAyKVPW91dozw==}
     peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
+      tailwindcss: '>=3.0.0 || >=4.0.0 || insiders'
     dependencies:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.1.14
@@ -2190,8 +2190,8 @@ packages:
       is-shared-array-buffer: 1.0.2
     dev: true
 
-  /assetgraph@7.11.1:
-    resolution: {integrity: sha512-NPztKsHgofakTOPTG4LWH9HdatOjLTZUCNTtX3TJnfmB3HrhVAC9Ogso/zbhm3NZudwTktB5waOefgpU2cSlEQ==}
+  /assetgraph@7.13.0:
+    resolution: {integrity: sha512-QyXjQrzoz7cDp2aH1v8XvHxB72VZck2ZndzLuttAiv6X5AIFqNsFQsGY3JTCeXifH0t2FN9XuKdqpoySN+R+9g==}
     dependencies:
       acorn: 8.15.0
       acorn-jsx: 5.3.2(acorn@8.15.0)
@@ -2228,7 +2228,7 @@ packages:
       source-map: 0.6.1
       specificity: 0.4.1
       teepee: 2.31.2
-      terser: 4.8.1
+      terser: 5.51.2
       urltools: 0.4.2
       workbox-build: 4.3.1
     transitivePeerDependencies:
@@ -2359,28 +2359,6 @@ packages:
     resolution: {integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==}
     dev: true
 
-  /browserslist@4.23.0:
-    resolution: {integrity: sha512-QW8HiM1shhT2GuzkvklfjcKDiWFXHOeFCIA/huJPwHsslwcydgk7X+z2zXpEijP98UCY7HbubZt5J2Zgvf0CaQ==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001649
-      electron-to-chromium: 1.5.4
-      node-releases: 2.0.18
-      update-browserslist-db: 1.1.0(browserslist@4.23.0)
-    dev: true
-
-  /browserslist@4.23.3:
-    resolution: {integrity: sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001649
-      electron-to-chromium: 1.5.4
-      node-releases: 2.0.18
-      update-browserslist-db: 1.1.0(browserslist@4.23.3)
-    dev: true
-
   /browserslist@4.24.4:
     resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
@@ -2458,14 +2436,10 @@ packages:
   /caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
-      browserslist: 4.23.3
-      caniuse-lite: 1.0.30001649
+      browserslist: 4.24.4
+      caniuse-lite: 1.0.30001707
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
-    dev: true
-
-  /caniuse-lite@1.0.30001649:
-    resolution: {integrity: sha512-fJegqZZ0ZX8HOWr6rcafGr72+xcgJKI9oWfDW5DrD7ExUtgZC7a7R7ZYmZqplh7XDocFdGeIFn7roAxhOeYrPQ==}
     dev: true
 
   /caniuse-lite@1.0.30001707:
@@ -3110,10 +3084,6 @@ packages:
     resolution: {integrity: sha512-bo1A4HH/NS522Ws0QNFIzyPcyUUNV/yyy70Ho1xqfGYzPUme2F/xr4tlEOuM6/A538U1vDA7a4XfCd1CKRegKQ==}
     dev: true
 
-  /electron-to-chromium@1.5.4:
-    resolution: {integrity: sha512-orzA81VqLyIGUEA77YkVA1D+N+nNfl2isJVjjmOyrlxuooZ19ynb+dOlaDTqd/idKRS9lDCSBmtzM+kyCsMnkA==}
-    dev: true
-
   /emoji-regex@10.3.0:
     resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
     dev: true
@@ -3324,11 +3294,6 @@ packages:
       '@esbuild/win32-arm64': 0.25.10
       '@esbuild/win32-ia32': 0.25.10
       '@esbuild/win32-x64': 0.25.10
-    dev: true
-
-  /escalade@3.1.2:
-    resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
-    engines: {node: '>=6'}
     dev: true
 
   /escalade@3.2.0:
@@ -3875,7 +3840,7 @@ packages:
 
   /glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -4180,6 +4145,11 @@ packages:
 
   /imagetools-core@9.0.0:
     resolution: {integrity: sha512-LAU2iVl6MuLbARLrZFEOrgqUFGmHij0FqqOR1/mMndUzJoPz2BU4gCXUhjikgwwmfhBPa/1szwiliUy//ZWafw==}
+    engines: {node: '>=20.0.0'}
+    dev: true
+
+  /imagetools-core@9.1.0:
+    resolution: {integrity: sha512-xQjs+2vrxLnAjCq+omuNkd5UQTld9/bP8+YT0LyYTlKfuSQtgUBvqhUwGugzSAh6sCdN+LnROMuLswn5hZ9Fhg==}
     engines: {node: '>=20.0.0'}
     dev: true
 
@@ -4707,6 +4677,7 @@ packages:
 
   /lodash.clone@4.5.0:
     resolution: {integrity: sha512-GhrVeweiTD6uTmmn5hV/lzgCQhccwReIVRLHp7LT4SopOjqEZ5BbX8b5WWEtAKasjmy8hR7ZPwsYlxRCku5odg==}
+    deprecated: This package is deprecated. Use structuredClone instead.
     dev: true
 
   /lodash.defaults@4.2.0:
@@ -4723,6 +4694,7 @@ packages:
 
   /lodash.omit@4.5.0:
     resolution: {integrity: sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==}
+    deprecated: This package is deprecated. Use destructuring assignment syntax instead.
     dev: true
 
   /lodash.sortby@4.7.0:
@@ -4731,6 +4703,7 @@ packages:
 
   /lodash.template@4.5.0:
     resolution: {integrity: sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
     dependencies:
       lodash._reinterpolate: 3.0.0
       lodash.templatesettings: 4.2.0
@@ -5345,10 +5318,6 @@ packages:
       formdata-polyfill: 4.0.10
     dev: true
 
-  /node-releases@2.0.18:
-    resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
-    dev: true
-
   /node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
     dev: true
@@ -5666,7 +5635,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.5.6
@@ -5679,7 +5648,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
     dev: true
@@ -5741,7 +5710,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -5776,7 +5745,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       cssnano-utils: 3.1.0(postcss@8.5.6)
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -5857,7 +5826,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
     dev: true
@@ -5900,7 +5869,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       caniuse-api: 3.0.0
       postcss: 8.5.6
     dev: true
@@ -6823,20 +6792,20 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.3
+      browserslist: 4.24.4
       postcss: 8.5.6
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /subfont@7.2.1(typescript@5.9.3):
-    resolution: {integrity: sha512-0DnnKSHKq4nlTUriv2sSNu4sTc6cVKJs5m14RTUgMCg69++iIk5PBCwzEdzclKoqmvZwzj2ZXEkXRXjE6+zOrw==}
+  /subfont@7.2.3(typescript@5.9.3):
+    resolution: {integrity: sha512-cBAqcUdMA5oSIC3LFVYHyWVn3ZK2mc5bTa/as77uxfrf1l8rkaLNJvdEq5Njf9uy/09t5yM6KjKRJzH0p8Cvdg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
       '@gustavnikolaj/async-main-wrap': 3.0.1
       '@hookun/parse-animation-shorthand': 0.1.5
-      assetgraph: 7.11.1
-      browserslist: 4.23.0
+      assetgraph: 7.13.0
+      browserslist: 4.24.4
       css-font-parser: 2.0.0
       css-font-weight-names: 0.2.1
       css-list-helpers: 2.0.0
@@ -6978,19 +6947,19 @@ packages:
       socketerrors: 0.3.0
     dev: true
 
-  /terser@4.8.1:
-    resolution: {integrity: sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==}
-    engines: {node: '>=6.0.0'}
+  /terser@5.23.0:
+    resolution: {integrity: sha512-Iyy83LN0uX9ZZLCX4Qbu5JiHiWjOCTwrmM9InWOzVeM++KNWEsqV4YgN9U9E8AlohQ6Gs42ztczlWOG/lwDAMA==}
+    engines: {node: '>=10'}
     hasBin: true
     dependencies:
+      '@jridgewell/source-map': 0.3.5
       acorn: 8.15.0
       commander: 2.20.3
-      source-map: 0.6.1
       source-map-support: 0.5.21
     dev: true
 
-  /terser@5.23.0:
-    resolution: {integrity: sha512-Iyy83LN0uX9ZZLCX4Qbu5JiHiWjOCTwrmM9InWOzVeM++KNWEsqV4YgN9U9E8AlohQ6Gs42ztczlWOG/lwDAMA==}
+  /terser@5.51.2:
+    resolution: {integrity: sha512-bWnjSNscmuI+GJze6ZupnHP8G/cTcsJF+bXCeQknk2SHQsgbNJnLrqiH9jZ2W4STPVXH2mDKKRX3iwPhc9Cn/Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -7289,28 +7258,6 @@ packages:
     resolution: {integrity: sha512-JemzuG3nyKpEQ/DArrYM0l+LDSLLPYiUQvDfGXJY35+r0J0C984vPB4Zh8DyMVip102YSnTeZtZ6Q8OQegQDRQ==}
     dev: true
 
-  /update-browserslist-db@1.1.0(browserslist@4.23.0):
-    resolution: {integrity: sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.23.0
-      escalade: 3.1.2
-      picocolors: 1.1.1
-    dev: true
-
-  /update-browserslist-db@1.1.0(browserslist@4.23.3):
-    resolution: {integrity: sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.23.3
-      escalade: 3.1.2
-      picocolors: 1.1.1
-    dev: true
-
   /update-browserslist-db@1.1.3(browserslist@4.24.4):
     resolution: {integrity: sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==}
     hasBin: true
@@ -7399,12 +7346,12 @@ packages:
       - rollup
     dev: true
 
-  /vite-imagetools@9.0.0:
-    resolution: {integrity: sha512-nxTMh7+PkZlOinV1DwgcDAill4+khOF29yQVqYEzleyKEb6qunRDYBYaT9TmGfx4l1fk2xSvDNgbiTYyiekHAw==}
+  /vite-imagetools@9.0.3:
+    resolution: {integrity: sha512-FwjApRNZyN+RucPW9Z9kf0dyzyi3r3zlDfrTnzHXNaYpmT3pZ5w//d6QkApy1iypbDm+3fq+Gwfv+PYA4j4uYw==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@rollup/pluginutils': 5.0.5
-      imagetools-core: 9.0.0
+      imagetools-core: 9.1.0
       sharp: 0.34.4
     transitivePeerDependencies:
       - rollup
@@ -7524,6 +7471,7 @@ packages:
 
   /whatwg-encoding@1.0.5:
     resolution: {integrity: sha512-b5lim54JOPN9HtzvK9HFXvBma/rnfFeqsic0hSpjtDbVxR3dJKLc+KB4V6GgiGOvl7CY/KNh8rxSo9DKQrnUEw==}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
     dependencies:
       iconv-lite: 0.4.24
     dev: true
@@ -7531,6 +7479,7 @@ packages:
   /whatwg-encoding@2.0.0:
     resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
     engines: {node: '>=12'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
     dependencies:
       iconv-lite: 0.6.3
     dev: true
