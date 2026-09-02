@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.17.0
     version: 1.17.0(vite@7.1.9)
   '@builder.io/qwik-city':
-    specifier: 1.17.0
-    version: 1.17.0(@types/node@22.18.10)(typescript@5.9.3)
+    specifier: 1.19.2
+    version: 1.19.2(@types/node@22.18.10)(typescript@5.9.3)
   '@divriots/jampack':
     specifier: 0.34.0
     version: 0.34.0(react-dom@16.14.0)(react@16.14.0)
@@ -120,19 +120,19 @@ packages:
       regenerator-runtime: 0.14.0
     dev: true
 
-  /@builder.io/qwik-city@1.17.0(@types/node@22.18.10)(typescript@5.9.3):
-    resolution: {integrity: sha512-K/2GKfuSQRWDI1sBMMBx8zd3tzn51PILWsY3gHvhNAcw8AErUqWv0qVaJIaGKmiZUu2Ij2hzZzrEfqL7oRu+HA==}
+  /@builder.io/qwik-city@1.19.2(@types/node@22.18.10)(typescript@5.9.3):
+    resolution: {integrity: sha512-RueRitP3EExdvxUTwIukknEkFmvW47/V8p9u3fUMv2S7tUryDC5hopklwBY5pGCohXy2h2WYURvEzN+OOOWeCQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 3.1.1
       '@types/mdx': 2.0.13
-      source-map: 0.7.4
-      svgo: 3.3.2
+      source-map: 0.7.6
+      svgo: 3.3.5
       undici: 6.14.1
       valibot: 1.0.0(typescript@5.9.3)
       vfile: 6.0.3
       vite: 7.1.9(@types/node@22.18.10)
-      vite-imagetools: 8.0.0
+      vite-imagetools: 9.0.0
       zod: 3.25.48
     transitivePeerDependencies:
       - '@types/node'
@@ -1296,7 +1296,7 @@ packages:
       remark-mdx: 3.0.1
       remark-parse: 11.0.0
       remark-rehype: 11.1.0
-      source-map: 0.7.4
+      source-map: 0.7.6
       unified: 11.0.4
       unist-util-position-from-estree: 2.0.0
       unist-util-stringify-position: 4.0.0
@@ -2016,6 +2016,7 @@ packages:
 
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
     dev: true
 
   /@vercel/analytics@1.5.0(react@16.14.0):
@@ -3534,7 +3535,7 @@ packages:
     dependencies:
       '@types/estree-jsx': 1.0.2
       astring: 1.8.6
-      source-map: 0.7.4
+      source-map: 0.7.6
     dev: true
 
   /estree-util-visit@2.0.0:
@@ -4171,11 +4172,6 @@ packages:
   /imageinfo@1.0.4:
     resolution: {integrity: sha512-BJml4q/QCO2187F4UcO/b6hTYIhbq4nnd1XNs65jyCED9em4m6XmeGWDxjewjfJoC7VJABhOdmqb64KA24rLZw==}
     engines: {node: '>=0.4'}
-    dev: true
-
-  /imagetools-core@8.0.0:
-    resolution: {integrity: sha512-5i4Cx5vrBpVdvT3gvkSGAzzkUCrg/5Jm54UwWbDUSTMp4AjDI4IxiC6dI4+X1PRJYi6eKqWuE+684NJY2iOn3w==}
-    engines: {node: '>=18.0.0'}
     dev: true
 
   /imagetools-core@9.0.0:
@@ -6396,6 +6392,11 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
+  /sax@1.6.1:
+    resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
+    engines: {node: '>=11.0.0'}
+    dev: true
+
   /saxes@5.0.1:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
     engines: {node: '>=10'}
@@ -6643,9 +6644,9 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /source-map@0.7.4:
-    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
-    engines: {node: '>= 8'}
+  /source-map@0.7.6:
+    resolution: {integrity: sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==}
+    engines: {node: '>= 12'}
     dev: true
 
   /space-separated-tokens@2.0.2:
@@ -6919,6 +6920,20 @@ packages:
       css-what: 6.1.0
       csso: 5.0.5
       picocolors: 1.1.1
+    dev: true
+
+  /svgo@3.3.5:
+    resolution: {integrity: sha512-8SQMzdrvWaD8deUmrnYB+ASyxBVgWUOilg+A75nE/76WdLpj6LopCwiAVvkzkcqy/9b7t2Mg7faFLjg0ZRcZ3w==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      commander: 7.2.0
+      css-select: 5.1.0
+      css-tree: 2.3.1
+      css-what: 6.1.0
+      csso: 5.0.5
+      picocolors: 1.1.1
+      sax: 1.6.1
     dev: true
 
   /symbol-tree@3.2.4:
@@ -7386,17 +7401,6 @@ packages:
     dependencies:
       '@types/unist': 3.0.1
       vfile-message: 4.0.2
-    dev: true
-
-  /vite-imagetools@8.0.0:
-    resolution: {integrity: sha512-3bkkA0vQ57tMynsetY2j4QhCnZKrxFv0RScaZipzYgkjkkUBEmZL5UIVHOUHhVMfwCetAeM9e3DNwyPK1ff4xg==}
-    engines: {node: '>=18.0.0'}
-    dependencies:
-      '@rollup/pluginutils': 5.0.5
-      imagetools-core: 8.0.0
-      sharp: 0.34.4
-    transitivePeerDependencies:
-      - rollup
     dev: true
 
   /vite-imagetools@9.0.0:
